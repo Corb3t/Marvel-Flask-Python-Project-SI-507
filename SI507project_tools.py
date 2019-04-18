@@ -9,6 +9,7 @@ from datetime import datetime as dt
 
 #The Marvel API came back up, so I decided to try and utilize the data, along with a CSV instead of attempting to learn Plotly. I intend on pulling story data from the marvelous module, then linking it to a Superheroes db using the Superhero names from the superheroes.csv with an association table. I also plan on creating a character traits table with a one-to-one relationship.
 
+#I should probably implement some caching since the marvelous module only returns 100 entries, so maybe I can look into doing it multiple times
 public_key = "092721debb22ea64ffcf5a37b505d228"
 private_key = "96c1798193a237b8ee210739dd734bd0bf2adc9c"
 
