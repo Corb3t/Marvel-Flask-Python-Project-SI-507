@@ -16,7 +16,7 @@ SI507_final_project.py is an application that utilizes Flask, a library for Pyth
 
 1. Install the requirements from requirements.txt by running the following code in your terminal: ``pip install -r requirements.txt``
 
-2. Run 'SI507_final_project.py' by cd'ing to the file's folder, and running ``python 'SI507_final_project.py``
+2. Run 'SI507_final_project.py' by cd'ing to the file's folder, and running ``python SI507_final_project.py``
 
 3. Once the database's tables are created, users can then access the flask routes by going to: http://127.0.0.1:5000/
 
@@ -26,19 +26,19 @@ SI507_final_project.py is an application that utilizes Flask, a library for Pyth
 
 ## Flask Routes
 
-> **Flask Route:** http://localhost:5000 **Description:** Shows a table of contents and outline of how the routes work.
+**Flask Route:** http://localhost:5000 **Description:** Shows a table of contents and outline of how the routes work.
 
 ![Imgur](https://i.imgur.com/L2HUSA2.png)
 
-> **Flask Route:** http://localhost:5000/heroes/(superhero) **Description:** Lets the user enter a superheroes name and see information about them including character traits and upcoming stories from the Marvel API. You can also search "random" to see 5 random superheroes.
+**Flask Route:** http://localhost:5000/heroes/(superhero) **Description:** Lets the user enter a superheroes name and see information about them including character traits and upcoming stories from the Marvel API. You can also search "random" to see 5 random superheroes.
 
 ![Imgur](https://i.imgur.com/7TVHuN6.png)
 
-> **Flask Route:** http://localhost:5000/heroes/gender/(gender) **Description:** Lets the user filter by each hero's gender
+**Flask Route:** http://localhost:5000/heroes/gender/(gender) **Description:** Lets the user filter by each hero's gender
 
 ![Imgur](https://i.imgur.com/Jurdga4.png)
 
-> **Flask Route:** http://localhost:5000/stories/all **Description:** Gives the user a list of upcoming comics
+**Flask Route:** http://localhost:5000/stories/all **Description:** Gives the user a list of upcoming comics
 
 ## How to run tests
 1. First, cd to the main directory of the project
