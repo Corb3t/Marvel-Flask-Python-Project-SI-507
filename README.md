@@ -16,9 +16,9 @@ SI507_final_project.py is an application that utilizes Flask, a library for Pyth
 
 1. Install the requirements from requirements.txt by running the following code in your terminal: ''pip install -r requirements.txt'' 
 
-2. Run 'SI507_final_project.py' by cd'ing to the file's folder, and running ''python 'SI507_final_project.py''
+2. Run 'SI507_final_project.py' by cd'ing to the file's folder, and running ``python 'SI507_final_project.py``
 
-3. Once the database's tables are created, users can then access the flask routes by going to: ``http://127.0.0.1:5000/``
+3. Once the database's tables are created, users can then access the flask routes by going to: http://127.0.0.1:5000/
 
 ## How to use
 
