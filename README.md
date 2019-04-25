@@ -5,7 +5,7 @@
 [Github Link] (https://github.com/Corbot5000/SI-507-Final-Project)
 ---
 
-[Imgur](https://i.imgur.com/L2HUSA2.png)
+![Imgur](https://i.imgur.com/L2HUSA2.png)
 
 ---
 ## Project Description
@@ -14,9 +14,9 @@ SI507_final_project.py is an application that utilizes Flask, a library for Pyth
 
 ## How to Run
 
-1. Install the requirements from requirements.txt by running the following code in your terminal: 'pip install -r requirements.txt' 
+1. Install the requirements from requirements.txt by running the following code in your terminal: ''pip install -r requirements.txt'' 
 
-2. Run 'SI507_final_project.py' by cd'ing to the file's folder, and running 'python SI507_final_project.py'
+2. Run 'SI507_final_project.py' by cd'ing to the file's folder, and running ''python 'SI507_final_project.py''
 
 3. Once the database's tables are created, users can then access the flask routes by going to: ``http://127.0.0.1:5000/``
 
@@ -27,13 +27,16 @@ SI507_final_project.py is an application that utilizes Flask, a library for Pyth
 ## Flask Routes
 
 > **Flask Route:** http://localhost:5000 **Description:** Shows a table of contents and outline of how the routes work.
-[Imgur](https://i.imgur.com/L2HUSA2.png)
 
-> **Flask Route:** http://localhost:5000/heroes/(superhero name) **Description:** Lets the user enter a superheroes name and see information about them including character traits and upcoming stories from the Marvel API. You can also search "random" to see 5 random superheroes.
-[Imgur](https://i.imgur.com/7TVHuN6.png)
+![Imgur](https://i.imgur.com/L2HUSA2.png)
+
+> **Flask Route:** http://localhost:5000/heroes/(superhero) **Description:** Lets the user enter a superheroes name and see information about them including character traits and upcoming stories from the Marvel API. You can also search "random" to see 5 random superheroes.
+
+![Imgur](https://i.imgur.com/7TVHuN6.png)
 
 > **Flask Route:** http://localhost:5000/heroes/gender/(gender) **Description:** Lets the user filter by each hero's gender
-[Imgur](https://i.imgur.com/Jurdga4.png)
+
+![Imgur](https://i.imgur.com/Jurdga4.png)
 
 > **Flask Route:** http://localhost:5000/stories/all **Description:** Gives the user a list of upcoming comics
 
@@ -48,6 +51,7 @@ SI507_final_project.py is an application that utilizes Flask, a library for Pyth
 - README.md
 - requirements.txt
 - superheroes.csv
+- Marvel DB Diagram.png
 - DB Example
     - marvel.db
 - static
@@ -63,21 +67,21 @@ SI507_final_project.py is an application that utilizes Flask, a library for Pyth
 
 The following dependencies were ran in a virtualenv for the python files included in this repo:
 
-certifi==2019.3.9
-chardet==3.0.4
-Click==7.0
-Flask==1.0.2
-Flask-SQLAlchemy==2.4.0
-idna==2.8
-itsdangerous==1.1.0
-Jinja2==2.10.1
-MarkupSafe==1.1.1
-marshmallow==2.19.2
-marvelous==1.0.4
-requests==2.21.0
-SQLAlchemy==1.3.3
-urllib3==1.24.2
-Werkzeug==0.14.1
+- certifi==2019.3.9
+- chardet==3.0.4
+- Click==7.0
+- Flask==1.0.2
+- Flask-SQLAlchemy==2.4.0
+- idna==2.8
+- itsdangerous==1.1.0
+- Jinja2==2.10.1
+- MarkupSafe==1.1.1
+- marshmallow==2.19.2
+- marvelous==1.0.4
+- requests==2.21.0
+- SQLAlchemy==1.3.3
+- urllib3==1.24.2
+- Werkzeug==0.14.1
 
 
 ### General
