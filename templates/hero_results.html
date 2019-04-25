@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav">
+            <span class="brand-logo center"><img src="{{ url_for('static',filename='logo.jpg') }}"
+                    alt="Marvel Logo"></span>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12">
+                <div class="card">
+                    <div class="card-content">
+                        <h5>Results for "<span class="searchtext">{{search_term}}</span>"</h5>
+                        <ol>
+                            {% for hero in heroes %}
+                            <li><b>{{ hero["name"] }}</b> First Appeared on: {{ hero["first_appear"] }}</li>
+                            <ul>
+                                <li>- Allegiance: {{ hero["allegiance"] }}</li>
+                                <li>- Eye Color: {{ hero["eyes"] }}</li>
+                                <li>- Hair Color: {{ hero["hair"] }}</li>
+                                <li>- Gender: {{ hero["gender"] }}</li>
+                                <li>- Number of Appearances: {{ hero["numAppear"] }}</li>
+                                {% if hero["stories"]|length == 0 %}
+                                <li>- Upcoming Stories: &lt;None&gt;</li>
+                                {% else %}
+                                <li style="margin-top: 5px; margin-bottom: 5px">- Upcoming Stories:
+                                    {{ hero["stories"] }}</li>
+                                {% endif %}
+                            </ul>
+                            {% endfor %}
+                        </ol>
+                        {% if not heroes %}
+                        No superheroes found - Try again.
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="{{ url_for('static',filename='js/add.js') }}"></script>
+</body>
+
+</html>
