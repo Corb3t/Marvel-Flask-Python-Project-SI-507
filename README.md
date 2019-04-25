@@ -2,7 +2,7 @@
 ### Description: New Modules and New Flask Routes and New APIS, oh my!
 ### Python Version: Python3
 
-[Github Link] (https://github.com/Corbot5000/SI-507-Final-Project)
+Github Link: https://github.com/Corbot5000/SI-507-Final-Project
 ---
 
 ![Imgur](https://i.imgur.com/L2HUSA2.png)
