@@ -14,7 +14,7 @@ SI507_final_project.py is an application that utilizes Flask, a library for Pyth
 
 ## How to Run
 
-1. Install the requirements from requirements.txt by running the following code in your terminal: ''pip install -r requirements.txt'' 
+1. Install the requirements from requirements.txt by running the following code in your terminal: ``pip install -r requirements.txt``
 
 2. Run 'SI507_final_project.py' by cd'ing to the file's folder, and running ``python 'SI507_final_project.py``
 
@@ -42,8 +42,8 @@ SI507_final_project.py is an application that utilizes Flask, a library for Pyth
 
 ## How to run tests
 1. First, cd to the main directory of the project
-2. Run SI507_final_project.py to create a database
-3. run SI507_project_tests.py to run unit tests
+2. Run ``python SI507_final_project.py`` to create a database
+3. run ``python SI507_project_tests.py`` to run unit tests
 
 ## Files Included
 - SI507_final_project.py
